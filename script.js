@@ -1,7 +1,7 @@
-const hourEl = document.getElementByID("hour");
-const minuteEl = document.getElementByID("minutes");
-const secondEl = document.getElementByID("seconds");
-const ampmEl = document.getElementByID("ampm");
+const hourEl = document.getElementById("hour");
+const minuteEl = document.getElementById("minutes");
+const secondEl = document.getElementById("seconds");
+const ampmEl = document.getElementById("ampm");
 
 function updateClock() {
   let h = new Date().getHours();
